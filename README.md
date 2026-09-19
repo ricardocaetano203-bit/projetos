@@ -1,36 +1,35 @@
-# ⚡ Consumo de Energia
+# ⚡ Calculadora de Consumo de Energia
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
 ![GitHub](https://img.shields.io/badge/GitHub-Repositório-black?logo=github)
+![Energia](https://img.shields.io/badge/Energia-Consumo%20Elétrico-yellow)
 ![Status](https://img.shields.io/badge/Status-Concluído-success)
-![Projeto](https://img.shields.io/badge/Projeto-Agenda%207-orange)
+![Agenda](https://img.shields.io/badge/Agenda-5-orange)
 
 ## 📌 Sobre o projeto
 
-O **Consumo de Energia** é um programa desenvolvido em Python para calcular e analisar o consumo mensal de energia elétrica de um imóvel.
+A **Calculadora de Consumo de Energia** é um programa desenvolvido em Python para estimar o consumo mensal de energia elétrica de um aparelho.
 
-O projeto tem como objetivo aplicar conceitos básicos de programação e desenvolver uma solução simples para auxiliar na análise do consumo de energia.
+O sistema solicita o nome do aparelho, sua potência em watts e o tempo médio de utilização diária. Com essas informações, calcula o consumo estimado em **kWh por mês**.
 
 ## 🎯 Objetivo
 
-O projeto foi desenvolvido para praticar conceitos fundamentais da linguagem Python, como:
+O objetivo do projeto é desenvolver uma aplicação simples para auxiliar na estimativa do consumo de energia elétrica e, ao mesmo tempo, praticar conceitos básicos de programação em Python.
 
-- 🐍 Variáveis
-- ⌨️ Entrada de dados
-- 🔢 Números e cálculos
-- 🔀 Estruturas condicionais
-- ⚙️ Operadores
-- 🖥️ Saída de dados
+## 🐍 Linguagem utilizada
 
-## ⚡ Consumo de Energia
+O projeto foi desenvolvido utilizando a linguagem:
 
-O programa recebe os dados necessários do usuário e realiza os cálculos relacionados ao consumo mensal de energia elétrica.
+![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
 
-A aplicação apresenta os resultados de forma simples e objetiva.
+## 🧮 Fórmula utilizada
 
-## ▶️ Como executar
+O consumo mensal é calculado utilizando a seguinte fórmula:
 
-Abra o terminal e entre na pasta do projeto:
+```text
+consumoMensal = (potencia × horasDia × 30) / 1000
 
-```bash
+consumoMensal = (150 × 10 × 30) / 1000
+consumoMensal = 45 kWh/mês
+
 cd projetos/consumo-energia
