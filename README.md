@@ -42,5 +42,10 @@ Aplicação para cálculo e verificação de consumo de água residencial e come
 
 ## 🚀 Como Executar
 
-1. Clone o repositório:bash
-git clone https://github.com/ricardocaetano203-bit/projetos.git
+
+Para acessar os projetos, clique nos links abaixo:
+
+### 💧 Consumo de Água
+[📁 Abrir projeto Consumo de Água](./consumo-agua)
+
+
