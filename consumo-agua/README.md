@@ -1,39 +1,64 @@
-# ⚡ Calculadora de Consumo de Energia
+# 💧 Consumo de Água
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
 ![GitHub](https://img.shields.io/badge/GitHub-Repositório-black?logo=github)
-![Energia](https://img.shields.io/badge/Energia-Consumo%20Elétrico-yellow)
 ![Status](https://img.shields.io/badge/Status-Concluído-success)
-![Agenda](https://img.shields.io/badge/Agenda-5-orange)
+![Projeto](https://img.shields.io/badge/Projeto-Agenda%207-orange)
 
 ## 📌 Sobre o projeto
 
-A **Calculadora de Consumo de Energia** é um programa desenvolvido em Python para estimar o consumo mensal de energia elétrica de um aparelho.
+O **Consumo de Água** é um programa desenvolvido em Python para classificar o perfil de consumo de água de diferentes tipos de imóveis.
 
-O sistema solicita o nome do aparelho, sua potência em watts e o tempo médio de utilização diária. Com essas informações, calcula o consumo estimado em **kWh por mês**.
+O sistema solicita ao usuário o tipo de imóvel e o consumo mensal de água em metros cúbicos (m³), apresentando uma mensagem de acordo com as regras estabelecidas.
 
 ## 🎯 Objetivo
 
-O objetivo do projeto é desenvolver uma aplicação simples para auxiliar na estimativa do consumo de energia elétrica e, ao mesmo tempo, praticar conceitos básicos de programação em Python.
+O objetivo deste projeto é praticar conceitos fundamentais da linguagem Python, como:
 
-## 🐍 Linguagem utilizada
+- 🐍 Variáveis
+- ⌨️ Entrada de dados
+- 🔢 Conversão de tipos
+- 🔀 Estruturas condicionais
+- ⚙️ Operadores lógicos
+- 🖥️ Saída de dados
 
-O projeto foi desenvolvido utilizando a linguagem:
+## 🏠 Tipos de imóvel
 
-![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
+O programa trabalha com três tipos de imóvel:
 
-## 🧮 Fórmula utilizada
+- 🏢 Comercial
+- 🏠 Casa
+- 🏢 Apartamento
 
-O consumo mensal é calculado utilizando a seguinte fórmula:
+## 📊 Classificação do consumo
 
-```text
-consumoMensal = (potencia × horasDia × 30) / 1000
+### 🏢 Comercial
 
+Exibe:
 
+**"Tarifa comercial aplicada – consulte o plano corporativo."**
 
+### 🏢 Apartamento com consumo menor que 10 m³
 
+Exibe:
 
+**"Consumo econômico – excelente controle de água!"**
 
+### 🏠 Casa ou 🏢 apartamento com consumo de até 25 m³
 
+Exibe:
 
+**"Consumo moderado – dentro do padrão residencial."**
 
+### ⚠️ Consumo acima do limite residencial
+
+Exibe:
+
+**"Consumo excessivo – adote medidas de economia e verifique vazamentos."**
+
+## ▶️ Como executar
+
+Primeiro, abra o terminal e entre na pasta do projeto:
+
+```bash
+cd projetos/consumo-agua
