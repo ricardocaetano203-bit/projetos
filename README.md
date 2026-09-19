@@ -1,29 +1,36 @@
-## 🛠️ Como Executar
+# ⚡ Consumo de Energia
 
-Para acessar os projetos, clique nos links abaixo:
+![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
+![GitHub](https://img.shields.io/badge/GitHub-Repositório-black?logo=github)
+![Status](https://img.shields.io/badge/Status-Concluído-success)
+![Projeto](https://img.shields.io/badge/Projeto-Agenda%207-orange)
 
-### 💧 Consumo de Água
-[📁 Abrir projeto Consumo de Água](./consumo-agua)
+## 📌 Sobre o projeto
 
-Aplicação para cálculo e verificação do consumo de água residencial e comercial.
+O **Consumo de Energia** é um programa desenvolvido em Python para calcular e analisar o consumo mensal de energia elétrica de um imóvel.
 
-### ⚡ Consumo de Energia
-[📁 Abrir projeto Consumo de Energia](./consumo-energia)
+O projeto tem como objetivo aplicar conceitos básicos de programação e desenvolver uma solução simples para auxiliar na análise do consumo de energia.
 
-Aplicação para cálculo e verificação do consumo mensal de energia elétrica.
+## 🎯 Objetivo
 
----
+O projeto foi desenvolvido para praticar conceitos fundamentais da linguagem Python, como:
 
-### 💻 Como executar os programas
+- 🐍 Variáveis
+- ⌨️ Entrada de dados
+- 🔢 Números e cálculos
+- 🔀 Estruturas condicionais
+- ⚙️ Operadores
+- 🖥️ Saída de dados
 
-1. Clique em uma das pastas acima.
-2. Entre no arquivo `.py` do projeto.
-3. Clique em **Code** e copie o endereço do repositório.
-4. No computador, abra o terminal.
-5. Use o comando:
+## ⚡ Consumo de Energia
+
+O programa recebe os dados necessários do usuário e realiza os cálculos relacionados ao consumo mensal de energia elétrica.
+
+A aplicação apresenta os resultados de forma simples e objetiva.
+
+## ▶️ Como executar
+
+Abra o terminal e entre na pasta do projeto:
 
 ```bash
-git clone COLE_AQUI_O_LINK_DO_REPOSITORIO
-cd projetos
-
-python nome_do_arquivo.py
+cd projetos/consumo-energia
