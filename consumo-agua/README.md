@@ -29,22 +29,6 @@ O consumo mensal é calculado utilizando a seguinte fórmula:
 ```text
 consumoMensal = (potencia × horasDia × 30) / 1000
 
-=== CALCULADORA DE CONSUMO DE ENERGIA ===
-
-Digite o nome do aparelho: Geladeira
-Digite a potência do aparelho em watts: 150
-Digite o tempo médio de uso diário em horas: 10
-
-Aparelho: Geladeira
-Consumo estimado: 45.00 kWh/mês
-
-cd projetos/consumo-energi
-
-python app.py
-y
-
-
-
 
 
 
