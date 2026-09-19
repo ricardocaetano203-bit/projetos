@@ -1,66 +1,52 @@
-# 💧 Consumo de Água
+# ⚡ Calculadora de Consumo de Energia
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
 ![GitHub](https://img.shields.io/badge/GitHub-Repositório-black?logo=github)
+![Energia](https://img.shields.io/badge/Energia-Consumo%20Elétrico-yellow)
 ![Status](https://img.shields.io/badge/Status-Concluído-success)
-![Projeto](https://img.shields.io/badge/Projeto-Agenda%207-orange)
+![Agenda](https://img.shields.io/badge/Agenda-5-orange)
 
 ## 📌 Sobre o projeto
 
-O **Consumo de Água** é um programa desenvolvido em Python para classificar o perfil de consumo de água de diferentes tipos de imóveis.
+A **Calculadora de Consumo de Energia** é um programa desenvolvido em Python para estimar o consumo mensal de energia elétrica de um aparelho.
 
-O sistema solicita ao usuário o tipo de imóvel e o consumo mensal de água em metros cúbicos (m³), apresentando uma mensagem de acordo com as regras estabelecidas.
+O sistema solicita o nome do aparelho, sua potência em watts e o tempo médio de utilização diária. Com essas informações, calcula o consumo estimado em **kWh por mês**.
 
 ## 🎯 Objetivo
 
-O objetivo deste projeto é praticar conceitos fundamentais da linguagem Python, como:
+O objetivo do projeto é desenvolver uma aplicação simples para auxiliar na estimativa do consumo de energia elétrica e, ao mesmo tempo, praticar conceitos básicos de programação em Python.
 
-- 🐍 Variáveis
-- ⌨️ Entrada de dados
-- 🔢 Conversão de tipos
-- 🔀 Estruturas condicionais
-- ⚙️ Operadores lógicos
-- 🖥️ Saída de dados
+## 🐍 Linguagem utilizada
 
-## 🏠 Tipos de imóvel
+O projeto foi desenvolvido utilizando a linguagem:
 
-O programa trabalha com três tipos de imóvel:
+![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
 
-- 🏢 Comercial
-- 🏠 Casa
-- 🏢 Apartamento
+## 🧮 Fórmula utilizada
 
-## 📊 Classificação do consumo
+O consumo mensal é calculado utilizando a seguinte fórmula:
 
-### 🏢 Comercial
+```text
+consumoMensal = (potencia × horasDia × 30) / 1000
 
-Exibe:
+consumoMensal = (150 × 10 × 30) / 1000
+consumoMensal = 45 kWh/mês
 
-**"Tarifa comercial aplicada – consulte o plano corporativo."**
+Aparelho: Geladeira
+Consumo estimado: 45 kWh/mês
 
-### 🏢 Apartamento com consumo menor que 10 m³
+cd projetos/consumo-energia
 
-Exibe:
+python app.py
 
-**"Consumo econômico – excelente controle de água!"**
+=== CALCULADORA DE CONSUMO DE ENERGIA ===
 
-### 🏠 Casa ou 🏢 apartamento com consumo de até 25 m³
+=== CALCULADORA DE CONSUMO DE ENERGIA ===
 
-Exibe:
+Digite o nome do aparelho: Geladeira
+Digite a potência do aparelho em watts: 150
+Digite o tempo médio de uso diário em horas: 10
 
-**"Consumo moderado – dentro do padrão residencial."**
-
-### ⚠️ Consumo acima do limite residencial
-
-Exibe:
-
-**"Consumo excessivo – adote medidas de economia e verifique vazamentos."**
-
-## ▶️ Como executar
-
-Primeiro, abra o terminal e entre na pasta do projeto:
-
-```bash
-cd projetos/consumo-agua
-
+Aparelho: Geladeira
+Consumo estimado: 45.00 kWh/mês
 
