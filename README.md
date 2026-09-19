@@ -19,7 +19,6 @@ Aplicação para cálculo e verificação de consumo de água residencial e come
 ---
 
 ## 🚀 Como Executar
-'''
-bash
+
 
 git clone [https://github.com/ricardocaetano203-bit/projetos)
