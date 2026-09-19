@@ -65,4 +65,19 @@ cd projetos/consumo-agua
 
 python app.py
 
+=== SISTEMA DE CONSUMO DE ÁGUA ===
 
+Digite o tipo de imóvel (comercial, casa ou apartamento): apartamento
+Digite o consumo mensal de água em m³: 8
+
+Consumo econômico – excelente controle de água!
+
+
+### Como deve ficar no GitHub
+
+Dentro da sua pasta:
+
+```text
+📁 consumo-agua
+   ├── 📄 app.py
+   └── 📄 README.md
