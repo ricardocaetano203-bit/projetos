@@ -1,18 +1,29 @@
-# Entrada de dados
-tipo_imovel = input("Informe o tipo de imóvel (comercial, casa ou apartamento): ").strip().lower()
-consumo = float(input("Informe o consumo mensal de água em m³: "))
+# Programa: Consumo de Água (com match/case)
 
-print("\n--- Resultado da Análise ---")
+# Solicita os dados de entrada
+tipo_imovel = input("Digite o tipo de imóvel (Comercial, Casa ou Apartamento): ").strip().capitalize()
+consumo = float(input("Digite o consumo mensal de água (em m³): "))
 
-# Regras de negócio da Agenda 07
-if tipo_imovel == "comercial":
-    print("Tarifa comercial aplicada – consulte o plano corporativo.")
-
-elif tipo_imovel == "apartamento" and consumo < 10:
-    print("Consumo econômico – excelente controle de água!")
-
-elif (tipo_imovel == "apartamento" and consumo <= 25) or (tipo_imovel == "casa" and consumo <= 25):
-    print("Consumo moderado – dentro do padrão residencial.")
-
-else:
-    print("Consumo excessivo – adote medidas de economia e verifique vazamentos.")
+# Estrutura match/case para o tipo de imóvel
+match tipo_imovel:
+    case "Comercial":
+        print("Tarifa comercial aplicada – consulte o plano corporativo.")
+        
+    case "Apartamento":
+        # if/else internos para analisar o consumo do apartamento
+        if consumo < 10:
+            print("Consumo econômico – excelente controle de água!")
+        elif consumo <= 25:
+            print("Consumo moderado – dentro do padrão residencial.")
+        else:
+            print("Consumo excessivo – adote medidas de economia e verifique vazamentos.")
+            
+    case "Casa":
+        # if/else internos para analisar o consumo da casa
+        if consumo <= 25:
+            print("Consumo moderado – dentro do padrão residencial.")
+        else:
+            print("Consumo excessivo – adote medidas de economia e verifique vazamentos.")
+            
+    case _:
+        print("Tipo de imóvel inválido. Por favor, digite Comercial, Casa ou Apartamento.")
